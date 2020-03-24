@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Calcular DNI Usuario</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <script src="js/CalcularDNI.js"></script>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  </head>
+  <body>
+      <br>
+      <br>
+      <div class="container">
+          <div class="row">
+              <div class="col"></div>
+              <div class="col"><h5 style="text-align: center;">Calcular Letra DNI</h5></div>
+              <div class="col"></div>
+          </div>
+
+          <br> <!--Salto-->
+
+          <div class="row">
+            <div class="col"></div>
+            <div class="col">
+                <input  id="input1"  placeholder="Ingrese Nº DNI" type="number" autofocus>
+            </div>
+            <div class="col"></div>
+        </div>
+
+        <br><!--Salto-->
+
+        <div class="row">
+            <div class="col"></div>
+            <div class="col">
+                <button onclick="CalcularLetraDNI()" class="btn btn-block btn-success">
+                        Calcular
+                </button>
+            </div>
+            <div class="col" id="resultado" style="color: red;"></div>
+        </div>
+      </div>
+   
+  </body>
+</html>
