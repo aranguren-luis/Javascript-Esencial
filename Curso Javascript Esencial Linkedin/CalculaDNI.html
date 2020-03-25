@@ -24,7 +24,7 @@
           <div class="row">
             <div class="col"></div>
             <div class="col">
-                <input  id="input1"  placeholder="Ingrese Nº DNI" type="number" autofocus>
+                <input  id="input1"  placeholder="Ingrese Nº DNI" type="number" autofocus required>
             </div>
             <div class="col"></div>
         </div>
@@ -35,11 +35,21 @@
             <div class="col"></div>
             <div class="col">
                 <button onclick="CalcularLetraDNI()" class="btn btn-block btn-success">
-                        Calcular
+                        DNI
                 </button>
             </div>
             <div class="col" id="resultado" style="color: red;"></div>
         </div>
+        <br>
+        <div class="row">
+          <div class="col"></div>
+          <div class="col">
+              <button onclick="CalcularLetraNIE()" class="btn btn-block btn-warning">
+                      NIE
+              </button>
+          </div>
+          <div class="col" id="resultado1" style="color: red;"></div>
+      </div>
       </div>
    
   </body>
