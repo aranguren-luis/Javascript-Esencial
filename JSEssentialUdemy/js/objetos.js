@@ -32,3 +32,4 @@ portatil.hibernar = function(){ return "Portatil en Modo Hibernación"; };
 
 console.log( portatil.marca, portatil.modelo," fue creada en el año ", portatil.año );
 console.log( portatil.hibernar() );
+

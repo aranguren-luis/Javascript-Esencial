@@ -1,5 +1,28 @@
-.container
+h3
     {
-        background-color: rgb(218, 218, 73);
+        color: white;
     }
 
+span
+    {
+        color: red;        
+    }
+
+li
+    {
+        text-align : center;
+        font-family: monospace;
+        color      : darkorchid;
+        font-size  : 18px;
+        padding    : 50px; 
+    }
+
+body.bgcolor
+    {
+        background-color: black;
+    }
+
+.titlerow:hover
+    {
+        
+    }
