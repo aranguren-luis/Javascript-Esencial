@@ -12,6 +12,15 @@ var array =
         function(){return "Función Vacía"}
     ];
 
+
+array.unshift( 24, "Enero");
+function añadir()
+    {
+        var y = document.getElementById( "input1" ).value;
+        document.getElementById( "OrderedList" ).innerHTML += "<li>" + y + "</li>";
+        return console.log( "Nuevo elemento agregado" );
+    };
+
 console.log( "La variable array es de tipo :", typeof( array ) );
 console.log( "¿la variable/objeto array es un arreglo?" , Array.isArray( array ) );
 
@@ -28,17 +37,19 @@ for (var i = 0; i < array.length; i++)
 array[3] = "Era tipo Objeto Ahora Es String";
 console.log( "* Posición 3 del Array: ", array[3] );
 
-//array.sort(); -----> organiza el array
+//array.sort(); ----> organiza el array
 
-array.shift(); //Elimina el primer valor del array
-console.log( array );
+//array.shift(); ----> Elimina el primer valor del array
 
-array.unshift( 24 ); //Agrega valores al inicio del array
-console.log( array );
+//array.unshift( 24 ); ----> Agrega valores al inicio del array
 
-array.push( "Pizza" ); //Agrega valores al final del array
+//array.push( "Pizza" ); ----> Agrega valores al final del array
 
-araay.pop(); //elimina el último valor del array
+//array.pop(); ----> elimina el último valor del array
+
+
+
+
 
 
 

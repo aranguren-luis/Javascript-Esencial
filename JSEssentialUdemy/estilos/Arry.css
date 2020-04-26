@@ -1,0 +1,14 @@
+a:hover {
+    text-decoration: none;
+    background: linear-gradient(to right, blue, purple);
+    color: greenyellow;
+    
+}
+
+body {
+    background-color: black;
+    color: yellow;
+    font-family: monospace;
+    font-size: 16px;
+
+
