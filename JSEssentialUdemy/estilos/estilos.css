@@ -22,7 +22,7 @@ body.bgcolor
         background-color: black;
     }
 
-.titlerow:hover
+:hover
     {
-        
+        color: chartreuse;
     }
