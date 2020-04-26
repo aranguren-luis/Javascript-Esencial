@@ -27,9 +27,19 @@ for (var i = 0; i < array.length; i++)
 
 array[3] = "Era tipo Objeto Ahora Es String";
 console.log( "* Posición 3 del Array: ", array[3] );
-array.sort;  //organiza el array
-array.shift; //Orden aleatorio en el array
-console.log(array);
+
+//array.sort(); -----> organiza el array
+
+array.shift(); //Elimina el primer valor del array
+console.log( array );
+
+array.unshift( 24 ); //Agrega valores al inicio del array
+console.log( array );
+
+array.push( "Pizza" ); //Agrega valores al final del array
+
+araay.pop(); //elimina el último valor del array
+
 
 
 
